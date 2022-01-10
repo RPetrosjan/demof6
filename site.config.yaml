@@ -1,0 +1,13 @@
+provider : "hyperv"
+name: "demenagement-express-s6"
+box: "bento/ubuntu-18.04"
+connect_sync:
+  username: "ruben"
+  password: "RuPe0403@2021"
+file :
+  realPath: "www/"
+  hostPath: "/www"
+mySql:
+  username: "ruben"
+  password: "passs"
+  db: "demoff"
